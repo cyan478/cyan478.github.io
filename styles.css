@@ -1,45 +1,61 @@
+h1 {
+
+	font-weight: 100 !important;
+}
+
+
+.body-border {
+	padding-left: 150px !important;
+	padding-right: 150px !important;
+}
 
 body {
-  padding-top: 130px;
+	padding-top: 130px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
 }
 
 .navbar.navbar-default {
-    background: white;
-    border-color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	background: white;
+	border-color: white;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	padding-left: 120px;
+	padding-right: 120px;
 }
 
 nav ul {
-  list-style: none;
-  text-align: center;
-  background: white;
+	list-style: none;
+	text-align: center;
+	background: white;
 }
 
 nav ul li {
-  display: inline-block;
+	display: inline-block;
 }
 
 nav ul li a {
-  display: block;
-  padding: 0px;
-  text-decoration: none;
-  color: #aaa;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin: 0 10px;
+	color:black !important;
+	display: block;
+	padding: 0px;
+	text-decoration: none;
+	color: #aaa;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0 10px;
 
 }
 
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
-  transition: all .5s;
+	transition: all .5s;
 }
 nav ul li a:hover {
-  color: #555;
+	color: #555;
 }
 
 /* NAVIGATION */
@@ -73,26 +89,26 @@ nav ul li a {
 /* stroke */
 nav.stroke ul li a,
 nav.fill ul li a {
-  position: relative; 
+	position: relative; 
 }
 
 
 nav.stroke ul li a:after,
 nav.fill ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: black;
-  height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: black;
+	height: 2px;
 }
 
 
 nav.stroke ul li a:hover:after {
-  width: 70%;
+	width: 70%;
 }
 
