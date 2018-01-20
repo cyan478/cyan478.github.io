@@ -1,0 +1,98 @@
+
+body {
+  padding-top: 130px;
+}
+
+.navbar.navbar-default {
+    background: white;
+    border-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background: white;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 10px;
+
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+/* NAVIGATION */
+/*
+nav {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 50px 0;
+  box-shadow: 0px 5px 0px #dedede;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+*/
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative; 
+}
+
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: black;
+  height: 2px;
+}
+
+
+nav.stroke ul li a:hover:after {
+  width: 70%;
+}
+
