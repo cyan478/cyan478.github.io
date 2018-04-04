@@ -1,30 +1,11 @@
 h1 {
-
 	font-weight: 100 !important;
 }
 
-
-.body-border {
-	padding-left: 150px !important;
-	padding-right: 150px !important;
-}
-
 body {
-	padding-top: 130px;
+	padding-top: 150px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 2px;
-}
-
-.navbar.navbar-default {
-	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 2px;
-	background: white;
-	border-color: white;
-	padding-top: 60px;
-	padding-bottom: 10px;
-	padding-left: 120px;
-	padding-right: 120px;
 }
 
 nav ul {
@@ -46,7 +27,6 @@ nav ul li a {
 	font-weight: 400;
 	text-transform: uppercase;
 	margin: 0 10px;
-
 }
 
 nav ul li a,
@@ -54,44 +34,15 @@ nav ul li a:after,
 nav ul li a:before {
 	transition: all .5s;
 }
+
 nav ul li a:hover {
 	color: #555;
 }
 
-/* NAVIGATION */
-/*
-nav {
-  width: 80%;
-  margin: 0 auto;
-  background: #fff;
-  padding: 50px 0;
-  box-shadow: 0px 5px 0px #dedede;
-}
-nav ul {
-  list-style: none;
-  text-align: center;
-}
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: #aaa;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0 10px;
-}
-*/
-
-/* stroke */
 nav.stroke ul li a,
 nav.fill ul li a {
 	position: relative; 
 }
-
 
 nav.stroke ul li a:after,
 nav.fill ul li a:after {
@@ -107,8 +58,264 @@ nav.fill ul li a:after {
 	height: 2px;
 }
 
-
 nav.stroke ul li a:hover:after {
 	width: 70%;
 }
+
+.standard-container {
+	margin: 50px 90px;
+}
+
+.navigation-list {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	padding: 50px 0px;
+	list-style: none;
+}
+
+.navbar.navbar-default {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	background: white;
+	border-color: white;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+/* index */
+
+.title {
+	/*background-color: pink;*/
+	font-weight: 800;
+	color: #007BFF;
+	width: 26%;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.container-info {
+	/*background-color: red;*/
+	width: 68%;
+}
+
+.intro-container {
+	height: 30vh;
+	/*background-color: blue;*/
+	padding: 0px 0px 0px 0px;
+}
+
+.skills-container {
+	/*background-color: blue;*/
+	padding: 110px 0px 250px 0px;
+	height: 20vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills-info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+/* immediate children of skills-info */
+.skills-info div {
+	/*background-color: orange;*/
+	width: 100%;
+	height: 20vh;
+}
+
+.inner-skills-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* immediate children of inner-skills-info */
+.inner-skills-info div {
+	/*background-color: yellow;*/
+	width: 65%;
+	/*height: 100%;*/
+
+}
+
+.work-experience-container {
+	/*background-color: blue;*/
+	padding: 0px 0px 0px 0px;
+	height: 85vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.extracurric-container {
+	/*background-color: blue;*/
+	padding: 110px 0px 0px 0px;
+	height: 75vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.exp-info {
+	/*background-color: orange;*/
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+/* immediate children of exp-info */
+.exp-info div {
+	/*background-color: green;*/
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.exp-date {
+	/*background-color: yellow;*/
+
+}
+
+.contact-container {
+	/*background-color: blue;*/
+	padding: 20px 0px;
+	height: 20vh;
+}
+
+/* portfolio */
+
+.all-project-container {
+	/*background-color: red;*/
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+.portfolio-container {
+	/*background-color: blue;*/
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.portfolio-container img {
+	position: absolute;
+    left: -500%;
+    right: -500%;
+    top: -500%;
+    bottom: -500%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.portfolio-container:hover img{
+	opacity: 0.28;
+}
+
+.portfolio-container .desc{
+	font-size: 20px;
+	letter-spacing: .5rem;
+	visibility:hidden;
+}
+
+.portfolio-container:hover .desc{
+	color: white;
+	visibility:visible;
+	opacity: 1.0;
+	text-decoration: none;
+}
+
+.all-project-container a:link{
+	text-decoration: none;
+}
+
+/* individual portfolio projects */
+
+.project-container {
+	/*background-color: blue;*/
+	margin: 60px 100px;
+	height: 35vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.project-link {
+	/*background-color: pink;*/
+	object-fit: cover;
+	max-width: 45%;
+	max-height: 100%;
+}
+
+.blind-recruit-link {
+	/*background-color: pink;*/
+	object-fit: cover;
+	max-width: 45%;
+	max-height: 78%;
+  
+}
+
+.project-info {
+	/*background-color: pink;*/
+	width: 50%;
+	display: inline-block;
+	
+}
+
+.project-header {
+	/*background-color: lightsteelblue;*/
+	margin: 60px 100px;
+}
+
+.project-link-container {
+	/*background-color: pink;*/
+}
+
+.project-header h1 {
+	background-color: red;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.project-header img {
+	/*background-color: blue;*/
+	margin: auto;
+	width: 50%;
+	height: 300px;
+}
+
+.project-information {
+	margin: 60px 100px;
+	/*background-color: blue;*/
+}
+
+/* contact information */
+
+.contact-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.inner-contact-info {
+	width: 68%;
+}
+
+
+
+
+
+
+
+
 
