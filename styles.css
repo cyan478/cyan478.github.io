@@ -1,12 +1,48 @@
-h1 {
-	font-weight: 100 !important;
+
+@font-face {  
+    font-family: Avenir;  
+    src: url(‘fonts/AvenirLTSts-Book.otf’);
 }
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/*html, body {
+    background-color: white;
+    margin-left: 4%;
+    margin: 0;
+    padding: 0;
+    font-family: Avenir, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 3.5px;
+}*/
+
+/*h1 {
+	font-weight: 100;
+}*/
+
 
 body {
 	padding-top: 150px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 2px;
 }
+
 
 nav ul {
 	list-style: none;
@@ -87,6 +123,56 @@ nav.stroke ul li a:hover:after {
 }
 
 /* index */
+
+.header-container {
+    background-color: #83A0A0;
+    /*height: 650px;*/
+    margin-left: 4%;
+    margin: 0;
+    padding: 0;
+    height: 82vh;
+    overflow: hidden;
+    color: white;
+    font-family: Avenir, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 3.5px;
+}
+
+.inner-header-container {
+    /*background-color: blue;*/
+    margin-top: 250px;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+
+    animation: translateUp 2s;
+    animation-fill-mode: forwards;
+}
+
+
+.name {
+    /*background-color: yellow;*/
+    width: 40%;
+    text-align: center;
+}
+
+.about {
+    width: 55%;
+    margin-right: 8%;
+}
+
+.contact {
+    margin-left: 30%;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact img {
+    /*background-color: blue;*/
+    margin-top: 70px;
+    height: 24px;
+}
 
 .title {
 	/*background-color: pink;*/
@@ -304,6 +390,84 @@ nav.stroke ul li a:hover:after {
 	/*background-color: blue;*/
 }
 
+/* project descriptions */
+
+.project-desc-header {
+	/*background-color: pink;*/
+	width: 100%;
+	height: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+
+.project-desc-title {
+	/*background-color: salmon;*/
+	width: 100%;
+	padding: 20px;
+	margin-top: 0px;
+	font-weight: 100;
+}
+
+.project-desc-desc {
+	/*background-color: yellow;*/
+	width: 70%;
+	height: 50%;
+	color: gray;
+}
+
+.project-desc-body {
+	/*background-color: salmon;*/
+	width: 100%;
+	margin-top: -20%;
+}
+
+
+
+.project-desc-body img {
+	margin: 5% auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.with-border-already {
+	margin: 0 !important;
+}
+
+/* !! desc titles: h1 -> h4 */ 
+
+.project-desc-body h1, 
+.project-desc-body h2, 
+.project-desc-body h3, 
+.project-desc-body h4 {
+	/*font-family: 'Arial Black', Gadget, sans-serif;*/
+	font-family: "San Francisco","Helvetica Nueue", sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	color: #676767;
+	text-transform: uppercase;
+}
+
+.project-desc-body h1{
+	margin: 4% auto;
+	font-weight: 600 !important;
+	color: black;
+}
+
+.project-desc-body h2{
+	margin: 2% auto;
+}
+
+.project-desc-body h4 {
+	color: gray;
+}
+
+.project-desc-body p {
+	font-family: Avenir, sans-serif;
+}
+
 /* contact information */
 
 .contact-container {
@@ -315,6 +479,19 @@ nav.stroke ul li a:hover:after {
 	width: 68%;
 }
 
+
+/* transitions */
+
+@keyframes translateUp {
+    0% {
+        /*transform: translateY(40px);*/
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-40px);
+        opacity: 1;
+    }
+}
 
 
 
