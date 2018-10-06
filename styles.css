@@ -467,17 +467,22 @@ nav.stroke ul li a:hover:after {
 }
 
 .caption {
+	max-width: 85%;
 	font-size: 15px !important;
 	margin-top: -3% !important;
 	margin-bottom: 5% !important;
+}
+
+.resize-smaller-smaller {
+	max-width: 350px !important;
 }
 
 .resize-smaller{
 	max-width: 450px !important;
 }
 
-.resize-smaller-smaller {
-	max-width: 350px !important;
+.resize-medium{
+	max-width: 700px !important;
 }
 
 
@@ -539,7 +544,7 @@ nav.stroke ul li a:hover:after {
 .right-planes > p {
 	margin: 1%;
 	font-size: 14px;
-	color: salmon;
+	color: #e82f2c;
 }
 
 .right-planes > .good {
