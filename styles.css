@@ -5,21 +5,48 @@
 }
 
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 200;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+  font-family: SF-Pro-Ultralight;
+  src: url("fonts/SF-Pro-Display-Ultralight.otf");
 }
 
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 400;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-family: SF-Pro-UltralightItalic;
+  src: url("fonts/SF-Pro-Display-UltralightItalic.otf");
 }
 
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 600;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+  font-family: SF-Pro-Thin;
+  src: url("fonts/SF-Pro-Display-Thin.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Light;
+  src: url("fonts/SF-Pro-Display-Light.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Regular;
+  src: url("fonts/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Semibold;
+  src: url("fonts/SF-Pro-Display-Semibold.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Bold;
+  src: url("fonts/SF-Pro-Display-Bold.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Heavy;
+  src: url("fonts/SF-Pro-Display-Heavy.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Black;
+  src: url("fonts/SF-Pro-Display-Bold.otf");
 }
 
 /*html, body {
@@ -174,14 +201,15 @@ nav.stroke ul li a:hover:after {
     height: 24px;
 }
 
+/*
 .title {
-	/*background-color: pink;*/
 	font-weight: 800;
 	color: #007BFF;
 	width: 26%;
 	text-align: right;
 	text-transform: uppercase;
 }
+*/
 
 .container-info {
 	/*background-color: red;*/
@@ -336,9 +364,9 @@ nav.stroke ul li a:hover:after {
 .project-container {
 	/*background-color: blue;*/
 	margin: 60px 100px;
-	height: 35vh;
+	height: 200px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .project-link {
@@ -404,7 +432,7 @@ nav.stroke ul li a:hover:after {
 
 
 .project-desc-title {
-	/*background-color: salmon;*/
+	font-family: SF-Pro-UltraLight;
 	width: 100%;
 	padding: 20px;
 	margin-top: 0px;
@@ -412,25 +440,46 @@ nav.stroke ul li a:hover:after {
 }
 
 .project-desc-desc {
-	/*background-color: yellow;*/
+	font-family: SF-Pro-Light;
+	margin-top: -15px;
 	width: 70%;
 	height: 50%;
 	color: gray;
 }
 
+.project-desc-img-front {
+	margin-top: -300px;
+	padding: 5px;
+	width: 80%;
+	height: 160%;
+}
+
 .project-desc-body {
 	/*background-color: salmon;*/
 	width: 100%;
-	margin-top: -20%;
+	margin-top: -10%;
 }
-
-
 
 .project-desc-body img {
 	margin: 5% auto;
 	max-width: 100%;
 	height: auto;
 }
+
+.caption {
+	font-size: 15px !important;
+	margin-top: -3% !important;
+	margin-bottom: 5% !important;
+}
+
+.resize-smaller{
+	max-width: 450px !important;
+}
+
+.resize-smaller-smaller {
+	max-width: 350px !important;
+}
+
 
 .with-border-already {
 	margin: 0 !important;
@@ -443,21 +492,21 @@ nav.stroke ul li a:hover:after {
 .project-desc-body h3, 
 .project-desc-body h4 {
 	/*font-family: 'Arial Black', Gadget, sans-serif;*/
-	font-family: "San Francisco","Helvetica Nueue", sans-serif;
+	font-family: SF-Pro-Semibold;
 	font-weight: 400;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.04em;
 	color: #676767;
-	text-transform: uppercase;
 }
 
 .project-desc-body h1{
 	margin: 4% auto;
-	font-weight: 600 !important;
 	color: black;
+	font-size: 28px;
 }
 
 .project-desc-body h2{
-	margin: 2% auto;
+	font-size: 25px;
+	margin-top: 7%;
 }
 
 .project-desc-body h4 {
@@ -465,8 +514,45 @@ nav.stroke ul li a:hover:after {
 }
 
 .project-desc-body p {
-	font-family: Avenir, sans-serif;
+	margin-top: 2.5%;
+	font-family: SF-Pro-Light;
+	font-size: 18px;
+	color: #4B4F56;
+	letter-spacing: 0.05em;
 }
+
+.split-screen-planes {
+	display:flex;
+	justify-content: space-around;
+	margin: 2% auto;
+}
+
+.left-planes {
+	width: 15%;
+	text-align: right;
+}
+
+.right-planes {
+	width: 70%;
+}
+
+.right-planes > p {
+	margin: 1%;
+	font-size: 14px;
+	color: salmon;
+}
+
+.right-planes > .good {
+	margin: 1%;
+	color: green;
+}
+
+.right-planes > .neutral {
+	margin: 1%;
+	color: #4B4F56;
+}
+
+
 
 /* contact information */
 

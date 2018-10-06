@@ -1,0 +1,147 @@
+    
+@font-face {  
+    font-family: Avenir;  
+    src: url(‘fonts/AvenirLTSts-Book.otf’);
+}
+
+@font-face {
+  font-family: SF-Pro-Ultralight;
+  src: url("fonts/SF-Pro-Display-Ultralight.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-UltralightItalic;
+  src: url("fonts/SF-Pro-Display-UltralightItalic.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Thin;
+  src: url("fonts/SF-Pro-Display-Thin.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Light;
+  src: url("fonts/SF-Pro-Display-Light.otf");
+}
+
+@font-face {
+  font-family: SF-Pro-Bold;
+  src: url("fonts/SF-Pro-Display-Bold.otf");
+}
+
+
+body {
+    background-color: #FCFCFC !important;
+}
+
+.flex-container {
+    padding: 0% 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin: 3% !important;
+    width: 400px;
+    height: 520px;
+    margin: 2.5%;
+    box-shadow: rgba(0, 0, 0, 0.0784314) 0px 13px 13px 0px;
+    border-radius: 2.5px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: 0.3s all;
+}
+
+.card a {
+    color: black !important;
+}
+
+.card img {
+    position: relative;
+    margin: 0%;
+    width: 100%;
+    height: auto;
+}
+
+.card .move-down-img {
+    margin-top: 7% !important;
+}
+
+.card > .body {
+    font-family: SF-Pro-Light;
+    letter-spacing: 0.9px !important;
+    text-align: left;
+    margin: 0% 7%;
+}
+
+.card > .body > .title {
+    font-family: SF-Pro-Bold;
+    font-size: 22px;
+    line-height: 125%;
+    margin-top: 10%;
+
+}
+
+.card > .body > .description {
+    font-family: SF-Pro-Ultralight;
+    font-size: 15px;
+    line-height: 125%;
+    margin-top: 1%;
+}
+
+.card > .body > p {
+    font-size: 14.5px;
+    color: #4B4F56;
+    text-align: left;
+    line-height: 140%;
+    margin-top: 8%;
+}
+
+.card > .footer {
+    position: absolute;
+    font-size: 14px;
+    color: #6d6d6d;
+    text-align: left;
+    padding-bottom: 12%;
+    bottom: 0;
+    height: 44px;
+    width: 100%;
+}
+
+.card > .footer > p{
+    margin: 0% 7%;
+}
+
+.card > .footer > .span-first {
+    margin-left: 7% !important;
+}
+
+.card > .footer > span {
+    margin-left: 2%;
+    padding: 1.5%;
+    padding-right: 0.7%;
+    font-size: 9px;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transition: 0.3s all;
+    box-shadow: rgba(0, 0, 0, 0.1584314) 0px 20px 20px 0px;
+
+    position: relative;
+
+    -moz-transform: translate(0px, -10px);
+    -ms-transform: translate(0px, -10px);
+    -o-transform: translate(0px, -10px);
+    -webkit-transform: translate(0px, -10px);
+    transform: translate(0px, -10px)
+}
+
+.card img:hover {
+    opacity: 0.7;
+}
