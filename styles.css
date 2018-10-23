@@ -473,6 +473,10 @@ nav.stroke ul li a:hover:after {
 	margin-bottom: 5% !important;
 }
 
+.resize-smaller-three {
+	max-width: 200px !important;
+}
+
 .resize-smaller-smaller {
 	max-width: 350px !important;
 }
@@ -555,6 +559,11 @@ nav.stroke ul li a:hover:after {
 .right-planes > .neutral {
 	margin: 1%;
 	color: #4B4F56;
+}
+
+.trio-plane {
+	max-width: 33%;
+	text-align: right;
 }
 
 
