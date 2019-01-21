@@ -5,11 +5,14 @@
 <head>
 	<title>Celine Yan</title>
 
+	<link rel="stylesheet" type="text/css" href="card.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700" rel="stylesheet">
 
-	<script src="https://code.jquery.com/jquery-3.3.0.slim.js"   integrity="sha256-7Imj0fLKtX5NFECS1umoQp7NC1lEgr4nBTasNm7gBLY="   crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="jquery.scrollintoview.min.js"></script>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -31,30 +34,44 @@
 			<div class="collapse navbar-collapse" id="links">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="celine_resume.pdf" target="_blank">Resume</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="https://medium.com/@yan.ce" target="_blank">Blog</a></li>
+					<li><a id = "toPortfolio" href="#index-portfolio">Portfolio</a></li>
+					<!-- <li><a href="portfolio.html">Portfolio</a></li> -->
 				</ul>
 			</div>
 		</div>
 	</nav>
-
-	<!--
-	<div class="intro-container standard-container">
-		<p>Hi, I'm Celine! <br><br> I was hoping to put some cool feature here, but I'm still figuring it out! </p>
-	</div>
-	-->
 
 	<div class="header-container slide-up-effect">
 		<div class="inner-header-container">
 			<div class="name">
 				Celine Yan
 			</div>
+			<div class="current-position">
+				<span class="span-about">User Exerience Designer Co-op @ Zipcar</span>
+			</div>
 			<div class="about">
-				Second year <b>Computer Science and Design</b>, with a minor in <b>Entrepreneurship</b> at Northeastern University <br><br>
+				I am a sophomore Computer Science and Design major at Northeastern University, and I'm interested in all things design and tech: my career interests lie in Product Design and designing for social good. <br><br>
 
-				Interested in all things design and tech, and my current career interests lie in <b>Product Design</b> and <b>Design for Social Good</b>.  <br><br>
+				Excited to be an incoming UI/UX Designer summer intern @ Microsoft!
+			</div>
+			<div class="contact2">
+				<a href="mailto:yan.celine478@gmail.com" target="_top">Email</a>
+				//
+				<a href="https://www.linkedin.com/in/cyan478/" target="_blank">Linkedin</a>
+				//
+				<a href="https://github.com/cyan478" target="_blank">GitHub</a>
+				//
+				<a href="images/resume.pdf" target="_blank">Resume</a>
+			</div>
+<!-- 			<div class="about">
+					<p>Second year <b>Computer Science and Design</b>, with a minor in <b>Entrepreneurship</b> at Northeastern University </p>
 
-				Excited to be an incoming <b>UI/UX Designer summer 2019 intern</b> @ Microsoft</b>. 
+					<p>Interested in all things design and tech, and my current career interests lie in <b>Product Design</b> and <b>Design for Social Good</b>.  </p>
 
+					<p>Excited to be an incoming <b>UI/UX Designer summer intern</b> @ Microsoft. </p> 
+
+				
 				<div class="contact">
 					<a href="mailto:yan.celine478@gmail.com" target="_top">
 						<img class="email" src="images/logos/email.png" alt="email">
@@ -69,135 +86,184 @@
 						<img class="resume" src="images/logos/suitcase.png" alt="resume">
 					</a>
 				</div>
+			
 
-			</div>
+			</div> -->
 		</div>
 	</div>
 
-	<!--
-	<div class="work-experience-container standard-container">
-		<div class="title">Experience</div>
-		<div class="exp-info container-info">
-			<div class="inner-exp-info">
-				iDTech Camps (Alexa's Cafe in NYU)<br>
-				Middle School Coding Instructor
-				<span class="exp-date"> May 2018 - Aug 2018 </span>
-			</div>
-			<div class="inner-exp-info">
-				OneClass<br>
-				Freelance Blogger
-				<span class="exp-date"> Mar 2018 - Present </span>
-			</div>
-			<div class="inner-exp-info">
-				Stuyvesant High School Alumni Association, Inc.<br>
-				Developer Intern
-				<span class="exp-date"> Aug 2017 - Present </span>
-			</div>
-			<div class="inner-exp-info">
-				SheHacksBoston<br>
-				Hackathon Designer
-				<span class="exp-date"> Sep 2017 - Dec 2017 </span>
-			</div>
-			<div class="inner-exp-info">
-				Morgan Stanley<br>
-				Software Developer Intern
-				<span class="exp-date"> Jul 2017 - Aug 2017 </span>
-			</div>
-			<div class="inner-exp-info">
-				Apex For Youth<br>
-				Developmental Intern
-				<span class="exp-date"> Feb 2016 - Jul 2017 </span>
-			</div>
-			<div class="inner-exp-info">
-				Charles B. Wang Community Health Center<br>
-				Community Leadership Intern
-				<span class="exp-date"> Feb 2016 - Jul 2017 </span>
-			</div>
-			<div class="inner-exp-info">
-				Red Fuse Communications<br>
-				Social Media Marketing Intern
-				<span class="exp-date"> Jul 2016 - Aug 2016 </span>
-			</div>
-		</div>
-	</div>
+	
+	<div class= "flex-container" id="index-portfolio">
 
-	<div class="extracurric-container standard-container">
-		<div class="title">Extracurriculars<br>& Leadership</div>
-		<div class="exp-info container-info">
-			<div class="inner-exp-info">
-				Northeastern University Alliance of Civically Engaged Students<br>
-				NU|ACES Ambassador
-				<span class="exp-date"> Jan 2018 - Present </span>
-			</div>
-			<div class="inner-exp-info">
-				Boston Housing Authority<br>
-				Chinese Interpreter Volunteer
-				<span class="exp-date"> Sep 2017 - Present </span>
-			</div>
-			<div class="inner-exp-info">
-				NU Women in Tech<br>
-				Member
-				<span class="exp-date"> Sep 2017 - Present </span>
-			</div>
-			<div class="inner-exp-info">
-				Northeastern University<br>
-				Residential Office Assistant
-				<span class="exp-date"> Sep 2017 - Dec 2017 </span>
-			</div>
-			<div class="inner-exp-info">
-				New York Road Runners<br>
-				NYRR Run For The Future Mentor
-				<span class="exp-date"> Jun 2017 - Aug 2017 </span>
-			</div>
-			<div class="inner-exp-info">
-				Stuyvesant High School<br>
-				Yearbook Editor in Chief
-				<span class="exp-date"> Sep 2016 - Jun 2017 </span>
-			</div>
-			<div class="inner-exp-info">
-				Buddhist Association of the United States<br>
-				Summer Camp Counselor
-				<span class="exp-date"> Yearly </span>
-			</div>
-		</div>
-	</div>
-
-	<div class="skills-container standard-container">
-		<div class="title">Skills <br> </div>
-		<div class="skills-info container-info">
-			<div class="inner-skills-info">
-				<b>Technical</b>
-				<div class="tech-info">
-					Python / Python Flask<br>
-					Java <br>
-					Processing <br>
-					C <br>
-					HTML/CSS
-
-
+		<div class="card">
+			<a href="ICA.html">
+				<img src="images/ICA/rings celine.JPG" />
+				<div class="body">
+					<div class="title">
+						The Urban Jungle
+					</a>
 				</div>
-			</div>
-			<div class="inner-skills-info">
-				<b>Design</b>
-				<div class="design-info">
-					Adobe Illustrator <br>
-					Adobe Photoshop <br>
-					Adobe InDesign <br>
-					Photography
+				<div class="description">
+					Visitor Experience & Spatial Design @ Boston ICA
 				</div>
+				<p>Exploring the physical limitations of our bodies and designing relavent interventions around Boston. Inspired by William Forsythe's Choreographic Objects museum exhibit. </p>
 			</div>
+			<div class="footer">
+				<span class="span-first">User Interviews</span>
+				<span class="span">Experience Mapping</span>
+			</div>
+		</div>
+
+		<div class="card">
+			<a href="penny_juice.html">
+				<img src="images/PennyJuice/front-thumbnail.png" />
+				<div class="body">
+					<div class="title">
+						Penny Juice
+					</a>
+				</div>
+				<div class="description">
+					Website Redesign
+				</div>
+				<p>Assessing an existing website based on the 5 Planes of UX and redesigning it with an improved user experience and interface.</p>
+			</div>
+			<div class="footer">
+				<span class="span-first">Illustrator (Ai)</span>
+				<span>Sketch</span>
+				<span>Axure</span>
+				<span> UI/UX </span>
+			</div>
+		</div>
+
+		<div class="card">
+			<a href="my_footprint.html">
+				<img src="images/Footprint/front-thumbnail.png" />
+				<div class="body">
+					<div class="title">
+						My Footprint App
+					</a>
+				</div>
+				<div class="description">
+					Product Designer @ Turning Green
+				</div>
+				<p>Designing the UI of My Footprint, an app that helps users keep track of their carbon footprint and take on environmental challenges to live a conscious and sustainable lifestyle.</p>
+			</div>
+			<div class="footer">
+				<span class="span-first">Illustrator (Ai)</span>
+				<span> Asana </span>
+				<span> UX Research </span>
+				<span> Lo-Hi Fidelity </span>
+			</div>
+		</div>
+
+		<div class="card">
+			<a href="ar_in_t.html">
+				<img src="images/MBTA/front-thumbnail.png" class="move-down-img"/>
+				<div class="body">
+					<div class="title">
+						AR in the MBTA
+					</a>
+				</div>
+				<div class="description">
+					App Design
+				</div>
+				<p>Projecting Augmented Reality as a solution to enhance current MBTA train stations in Boston, MA.</p>
+			</div>
+			<div class="footer">
+				<span class="span-first">Illustrator (Ai)</span>
+				<span>Marvel App</span>
+				<span> UI/UX </span>
+			</div>
+		</div>
+
+		<div class="card">
+			<a href="alexa_cafe.html">
+				<img src="images/AlexaCafe/front-thumbnail.png" />
+				<div class="body">
+					<div class="title">
+						Summer Camp Coding Curriculum
+					</a>
+				</div>
+				<div class="description">
+					Coding Instructor @ iDTech Camps (NYU) 
+				</div>
+				<p>Designing course curriculum and classroom space to teach computer programming in Python and Java to over 50 middle school girls.</p>
+			</div>
+			<div class="footer">
+				<span class="span-first"> Illustrator (Ai) </span>
+				<span> User Research </span>
+			</div>
+		</div>
+
+		<!--
+
+		<div class="card">
+			<a href="rotary.html">
+				<img src="images/Rotary/front-thumbnail.png" />
+				<div class="body">
+					<div class="title">
+						NYC Chinatown Rotary Club
+					</a>
+				</div>
+				<div class="description">
+					Rebranding
+				</div>
+				<p>Redefining the NYC Chinatown Rotary Club's long term and short term goals in order to foster a stronger community among Chinese American youth and tighten alumni network.</p>
+			</div>
+			<div class="footer">
+				<span class="span-first"> Illustrator (Ai) </span>
+				<span> Photoshop (Ps) </span>
+				<span> Community </span>
+			</div>
+		</div>
+
+	-->
+
+	<div class="card">
+		<a href="dslr.html">
+			<img src="images/DSLR/front-thumbnail.jpg" />
+			<div class="body">
+				<div class="title">
+					DSLR on AutoCAD
+				</a>
+			</div>
+			<div class="description">
+				3D Rendition
+			</div>
+			<p>Exploring AutoCAD and creating a 3D Model of a NikonD7000 DSLR for my final project in Technology Drawing/Drafting during junior year of high school.</p>
+		</div>
+		<div class="footer">
+			<span class="span-first"> AutoCAD </span>
 		</div>
 	</div>
 
-	<div class="contact-container standard-container">
-		<div class="title">Contact <br> </div>
-		<div class="inner-contact-info">
-				<p class="email-link"> Email: yan.ce@husky.neu.edu </p>
-				<p class="github-link"> Github: @cyan478</p>
-				<p class="linkedin-link"> LinkedIn: @cyan478 </p>
-			</div>
-	</div>
--->
+	<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		    	// Prevent default anchor click behavior
+		    	event.preventDefault();
+
+		      	// Store hash
+		      	let hash = this.hash;
+
+		      	// Using jQuery's animate() method to add smooth page scroll
+		      	// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      	$('html, body').animate({
+		      		scrollTop: $(hash).offset().top - 150
+		      	}, 800, function(){
+
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		    });
+		   	} // End if
+		   });
+		});
+	</script>
+</div>
 
 </body>
 

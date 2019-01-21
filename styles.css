@@ -1,52 +1,52 @@
 
 @font-face {  
-    font-family: Avenir;  
-    src: url(‘fonts/AvenirLTSts-Book.otf’);
+	font-family: Avenir;  
+	src: url(‘fonts/AvenirLTSts-Book.otf’);
 }
 
 @font-face {
-  font-family: SF-Pro-Ultralight;
-  src: url("fonts/SF-Pro-Display-Ultralight.otf");
+	font-family: SF-Pro-Ultralight;
+	src: url("fonts/SF-Pro-Display-Ultralight.otf");
 }
 
 @font-face {
-  font-family: SF-Pro-UltralightItalic;
-  src: url("fonts/SF-Pro-Display-UltralightItalic.otf");
+	font-family: SF-Pro-UltralightItalic;
+	src: url("fonts/SF-Pro-Display-UltralightItalic.otf");
 }
 
 @font-face {
-  font-family: SF-Pro-Thin;
-  src: url("fonts/SF-Pro-Display-Thin.otf");
+	font-family: SF-Pro-Thin;
+	src: url("fonts/SF-Pro-Display-Thin.otf");
 }
 
 @font-face {
-  font-family: SF-Pro-Light;
-  src: url("fonts/SF-Pro-Display-Light.otf");
+	font-family: SF-Pro-Light;
+	src: url("fonts/SF-Pro-Display-Light.otf");
 }
 
 @font-face {
-  font-family: SF-Pro-Regular;
-  src: url("fonts/SF-Pro-Display-Regular.otf");
+	font-family: SF-Pro-Regular;
+	src: url("fonts/SF-Pro-Display-Regular.otf");
 }
 
 @font-face {
-  font-family: SF-Pro-Semibold;
-  src: url("fonts/SF-Pro-Display-Semibold.otf");
+	font-family: SF-Pro-Semibold;
+	src: url("fonts/SF-Pro-Display-Semibold.otf");
 }
 
 @font-face {
-  font-family: SF-Pro-Bold;
-  src: url("fonts/SF-Pro-Display-Bold.otf");
+	font-family: SF-Pro-Bold;
+	src: url("fonts/SF-Pro-Display-Bold.otf");
 }
 
 @font-face {
-  font-family: SF-Pro-Heavy;
-  src: url("fonts/SF-Pro-Display-Heavy.otf");
+	font-family: SF-Pro-Heavy;
+	src: url("fonts/SF-Pro-Display-Heavy.otf");
 }
 
 @font-face {
-  font-family: SF-Pro-Black;
-  src: url("fonts/SF-Pro-Display-Bold.otf");
+	font-family: SF-Pro-Black;
+	src: url("fonts/SF-Pro-Display-Bold.otf");
 }
 
 /*html, body {
@@ -57,159 +57,156 @@
     font-family: Avenir, sans-serif;
     text-transform: lowercase;
     letter-spacing: 3.5px;
-}*/
+    }*/
 
 /*h1 {
 	font-weight: 100;
-}*/
+	}*/
 
 
-body {
-	padding-top: 150px;
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 2px;
-}
+	body {
+		padding-top: 150px;
+		font-family: SF-Pro-Bold;
+		letter-spacing: 2px;
+	}
 
 
-nav ul {
-	list-style: none;
-	text-align: center;
-	background: white;
-}
+	nav ul {
+		list-style: none;
+		text-align: center;
+		background: white;
+	}
 
-nav ul li {
-	display: inline-block;
-}
+	nav ul li {
+		display: inline-block;
+	}
 
-nav ul li a {
-	color:black !important;
-	display: block;
-	padding: 0px;
-	text-decoration: none;
-	color: #aaa;
-	font-weight: 400;
-	text-transform: uppercase;
-	margin: 0 10px;
-}
+	nav ul li a {
+		color:black !important;
+		display: block;
+		padding: 0px;
+		text-decoration: none;
+		color: #aaa;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0 10px;
+	}
 
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-	transition: all .5s;
-}
+	nav ul li a,
+	nav ul li a:after,
+	nav ul li a:before {
+		transition: all .5s;
+	}
 
-nav ul li a:hover {
-	color: #555;
-}
+	nav ul li a:hover {
+		color: #555;
+	}
 
-nav.stroke ul li a,
-nav.fill ul li a {
-	position: relative; 
-}
+	nav.stroke ul li a,
+	nav.fill ul li a {
+		position: relative; 
+	}
 
-nav.stroke ul li a:after,
-nav.fill ul li a:after {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-	width: 0%;
-	content: '.';
-	color: transparent;
-	background: black;
-	height: 2px;
-}
+	nav.stroke ul li a:after,
+	nav.fill ul li a:after {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 0%;
+		content: '.';
+		color: transparent;
+		background: black;
+		height: 2px;
+	}
 
-nav.stroke ul li a:hover:after {
-	width: 70%;
-}
+	nav.stroke ul li a:hover:after {
+		width: 70%;
+	}
 
-.standard-container {
-	margin: 50px 90px;
-}
+	.standard-container {
+		margin: 50px 90px;
+	}
 
-.navigation-list {
-	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 2px;
-	padding: 50px 0px;
-	list-style: none;
-}
+	.navigation-list {
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		letter-spacing: 2px;
+		padding: 50px 0px;
+		list-style: none;
+	}
 
-.navbar.navbar-default {
-	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 2px;
-	background: white;
-	border-color: white;
-	padding-top: 60px;
-	padding-bottom: 10px;
-	padding-left: 60px;
-	padding-right: 60px;
-}
+	.navbar.navbar-default {
+		font-size: 18px;
+		/*font-family: 'Roboto', sans-serif;*/
+		font-family: SF-Pro-Light;
+		letter-spacing: 2px;
+		background: white;
+		border-color: white;
+		padding-top: 60px;
+		padding-bottom: 10px;
+		padding-left: 60px;
+		padding-right: 70px;
+	}
 
-/* index */
+	/* index */
 
-.header-container {
-    background-color: #83A0A0;
-    /*height: 650px;*/
-    margin-left: 4%;
-    margin: 0;
-    padding: 0;
-    height: 82vh;
-    overflow: hidden;
-    color: white;
-    font-family: Avenir, sans-serif;
-    text-transform: lowercase;
-    letter-spacing: 3.5px;
-}
+	.header-container {
+		/*background-color: #83A0A0;*/
+		font-size: 18px;
+		padding-left: 10%;
+		overflow: hidden;
+		color: black;
+		font-family: SF-Pro-Regular;
+	}
 
-.inner-header-container {
-    /*background-color: blue;*/
-    margin-top: 250px;
-    height: 40%;
-    display: flex;
-    justify-content: space-between;
-
-    animation: translateUp 2s;
-    animation-fill-mode: forwards;
-}
+	.inner-header-container {
+		/*background-color: blue;*/
+		margin-top: 18%;
+		margin-bottom: 0%;
+		/*display: flex;*/
+		/*justify-content: space-between;*/
+		animation: translateUp 2s;
+		animation-fill-mode: forwards;
+	}
 
 
-.name {
-    /*background-color: yellow;*/
-    width: 40%;
-    text-align: center;
-}
+	.name {
+		/*background-color: salmon;*/
+		margin-bottom: 0.5%;
+		font-family: SF-Pro-Black;
+		font-size: 60px;
+	}
 
-.about {
-    width: 55%;
-    margin-right: 8%;
-}
+	.current-position {
+		/*background-color: salmon;*/
+		margin-bottom: 3%;
+		font-family: SF-Pro-Bold;
+		font-size: 17px;
+		color: gray;
+	}
 
-.contact {
-    margin-left: 30%;
-    width: 180px;
-    display: flex;
-    justify-content: space-between;
-}
+	.about {
+		width: 49%;
+		font-family: SF-Pro-Light;
+		font-size: 16px;
+		margin-bottom: 3%;
+		letter-spacing: 1.2px;
+	}
 
-.contact img {
-    /*background-color: blue;*/
-    margin-top: 70px;
-    height: 24px;
-}
+	.contact {
+		margin-left: 30%;
+		width: 180px;
+		display: flex;
+		justify-content: space-between;
+	}
 
-/*
-.title {
-	font-weight: 800;
-	color: #007BFF;
-	width: 26%;
-	text-align: right;
-	text-transform: uppercase;
-}
-*/
+	.contact img {
+		/*background-color: blue;*/
+		margin-top: 70px;
+		height: 24px;
+	}
 
 .container-info {
 	/*background-color: red;*/
@@ -325,16 +322,16 @@ nav.stroke ul li a:hover:after {
 
 .portfolio-container img {
 	position: absolute;
-    left: -500%;
-    right: -500%;
-    top: -500%;
-    bottom: -500%;
-    margin: auto;
-    min-height: 100%;
-    min-width: 100%;
-    opacity: 1;
+	left: -500%;
+	right: -500%;
+	top: -500%;
+	bottom: -500%;
+	margin: auto;
+	min-height: 100%;
+	min-width: 100%;
+	opacity: 1;
 
-    -webkit-transition: all 0.35s;
+	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
 }
 
@@ -381,7 +378,7 @@ nav.stroke ul li a:hover:after {
 	object-fit: cover;
 	max-width: 45%;
 	max-height: 78%;
-  
+
 }
 
 .project-info {
@@ -583,14 +580,14 @@ nav.stroke ul li a:hover:after {
 /* transitions */
 
 @keyframes translateUp {
-    0% {
-        /*transform: translateY(40px);*/
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(-40px);
-        opacity: 1;
-    }
+	0% {
+		/*transform: translateY(40px);*/
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(-40px);
+		opacity: 1;
+	}
 }
 
 
