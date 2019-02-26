@@ -183,16 +183,13 @@ nav.stroke ul li a:hover:after {
 }
 
 .contact {
-	margin-left: 30%;
-	width: 180px;
+	width: 200px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .contact img {
-	/*background-color: blue;*/
-	margin-top: 70px;
-	height: 24px;
+	height: 28px;
 }
 
 /* portfolio */
