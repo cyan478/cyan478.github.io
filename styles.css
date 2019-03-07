@@ -182,6 +182,11 @@ nav.stroke ul li a:hover:after {
 	letter-spacing: 1.2px;
 }
 
+.colored {
+	font-family: SF-Pro-Regular;
+	color: #E05656;
+}
+
 .contact {
 	width: 165px;
 	display: flex;
