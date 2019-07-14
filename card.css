@@ -229,6 +229,16 @@ img {
     background-color: #ff8000;
 }
 
+.pennyjuice .image {
+    position: absolute;
+    overflow: hidden;
+    top: 10%;
+}
+
+.pennyjuice img {
+    width: 100%;
+}
+
 .pennyjuice .body {
     width: 80%;
     position: absolute;
