@@ -240,7 +240,16 @@ img {
 
 
 .ar-in-t {
-    background-color: #141414;
+    background-color: black;
+}
+
+.ar-in-t .image {
+    position: absolute;
+    overflow: hidden;
+}
+
+.ar-in-t img {
+    width: 100%;
 }
 
 .ar-in-t .body {
@@ -248,6 +257,7 @@ img {
     position: absolute;
     top: 50%;
     left: 8%;
+    text-shadow: black 3px 0 100px;
 }
 
 
