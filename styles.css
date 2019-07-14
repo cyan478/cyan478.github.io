@@ -211,6 +211,26 @@ nav.stroke ul li a:hover:after {
 	flex-wrap: wrap;
 }
 
+.last-section{
+	width: 100%;
+	margin-bottom: 7%;
+}
+
+.endcreds p{
+	text-align: center;
+	font-family: SF-Pro-Semibold;
+    font-size: 16px;
+}
+
+.copyright p{
+	text-align: center;
+	font-family: SF-Pro-Semibold;
+    font-size: 12px;
+    color: darkgray;
+    margin-top: -0.6%;
+}
+
+
 @media (min-width: 1300px) {
   .all-project-container {
   	/*background-color: blue;*/
