@@ -163,6 +163,7 @@ img {
 
 .zipcar {
     background-color: #55A646;
+    /*background-color: #4f4e5b;*/
     overflow: hidden;
 }
 
@@ -190,7 +191,7 @@ img {
 }
 
 .ica .body {
-    width: 40%;
+    width: 50%;
     position: absolute;
     top: 28%;
     left: 8%;
@@ -203,6 +204,14 @@ img {
 .myfootprint {
     background-color: #D7DBDD;
 }
+
+.myfootprint img {
+    width: 380px;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+
 
 .myfootprint .body{
     width: 40%;
