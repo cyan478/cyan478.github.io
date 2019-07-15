@@ -143,9 +143,9 @@ nav.stroke ul li a:hover:after {
 	font-size: 18px;
 	padding-left: 10%;
 	overflow: hidden;
-	height: 90vh;
 	color: black;
 	font-family: SF-Pro-Regular;
+	margin-bottom: 15%;
 }
 
 .inner-header-container {
@@ -230,6 +230,20 @@ nav.stroke ul li a:hover:after {
     margin-top: -0.6%;
 }
 
+
+@media (max-width: 480px) {
+.header-container {
+	/*background-color: #83A0A0;*/
+	font-size: 18px;
+	padding-left: 10%;
+	overflow: hidden;
+	color: black;
+	font-family: SF-Pro-Regular;
+	margin-bottom: 8%;
+}
+
+
+}
 
 @media (min-width: 1300px) {
   .all-project-container {
