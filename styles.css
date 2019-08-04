@@ -128,16 +128,20 @@ nav.stroke ul li a:hover:after {
 	/*font-family: 'Roboto', sans-serif;*/
 	font-family: SF-Pro-Light;
 	/*letter-spacing: 2px;*/
-	background: white;
+	background-color: white;
 	border-color: white;
-	padding-top: 60px;
-	padding-bottom: 10px;
+	padding-bottom: 8px;
 	padding-left: 110px;
 	padding-right: 120px;
-/*	new: padding-top: 40px;
-		padding-bottom: 8px;
-		padding-left: 110px;
-		padding-right: 120px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 70px;
+    height: 100px;
+}
+
+nav .container-fluid {
+    margin: unset;
 }
 
 /* index */
