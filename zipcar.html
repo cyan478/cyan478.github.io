@@ -7,6 +7,8 @@
 
 	<link rel="stylesheet" type="text/css" href="individual_projects.css">
 
+    <script src="navbar-scroll.js"></script>
+
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700" rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-3.3.0.slim.js"   integrity="sha256-7Imj0fLKtX5NFECS1umoQp7NC1lEgr4nBTasNm7gBLY="   crossorigin="anonymous"></script>
@@ -44,7 +46,7 @@
 
 	<div class="project-desc-header">
 		<h1 class="project-desc-title">
-			Zipcar
+			Zipcar: Redesigning the UK Presales Site
 		</h1>
 		<div class="project-desc-desc">
 			User Experience Designer Co-op / Spring 2019
@@ -54,66 +56,163 @@
 	<div class="project-container">
 		<div class="project-desc-body">
 
-			<h1> Redesigning the UK Presales Site </h1>
+			<h2> Project Background </h2>
 
-			<p>During my Spring 2019 semester co-op, I led the design update of the London Presales site design system (consistent with North America's site) across a 10-week sprint on the Product team. </p>
+			<p>As a UX Designer Co-op on the Zipcar Design team, one of my two projects was to lead the localization of the London Presales' design system to that of North America's. London is the primary and largest market for Zipcar Flex, a popular feature that allows customers to book Zipcars for one-way trips throughout the UK.</p>
+
+			<p>It was an incredible experience working closely with a global team of stakeholders to hit one primary business OKR. The impact of my design decisions allows top feature Zipcar Flex to stay competitive in the market, and increase conversion rates to the business registration funnel.</p>
 
 			<center>
 				<img src="images/Zipcar/original_desktop_screens.png" alt="Original desktop screens">
-				<p class="caption">Original desktop screenshots of UK Presales 2010</p>
+				<p class="caption">Original desktop screenshots of UK Presales 2018 (left to right: Consumer Home, Value Prop, Zipcar for Business, Electric Vehicles, Pricing)</p>
 
 				<img src="images/Zipcar/new_desktop_screens.png" alt="New desktop screens">
-				<p class="caption">New desktop screenshots of UK Presales 2019</p>
+				<p class="caption">New desktop screenshots of UK Presales 2019 (left to right: Consumer Home, Value Prop, Zipcar for Business, Electric Vehicles, Pricing)</p>
 			</center>
 
-			<h2> Project Background </h2>
+			<div class="space-between">
+			</div>
 
-			<p>Throughout my co-op, I worked primarily on designs for the Consumers and Zipcar for Business (Z4B) Presales site, which is Zipcar's registration funnel for new users who are not Zipcar members. When I joined the Design team as a UX Designer Co-op in Jan 2019, I became responsible for any forthcoming Presales design decisions, primarily with one of Zipcar's higher priority Objectives and Key Results (OKR) to update the UK Presales site. <br><br>
-
-			Across a 10-week sprint, I worked very closely with the UK Marketing team, Senior Manager of UK Marketing, UK Marketing team, Head of Product at Zipcar International (UK), UK Marketing team,and a Project Manager in the home office to update 16 unique site pages' wireframes. As the designer, I updated and created consistent design components, created playful icons and illustrations, and implemented UK Marketing's copy and images in situ with the wireframes.</p>
-
+			<h2> Project Scope </h2>
 
 			<center>
-				<img src="images/Zipcar/numbers.png" alt="Numbers">
+				<img src="images/Zipcar/numbers.png" class="resize-60-percent" alt="Numbers">
 			</center>
 
-			<h2> Designing New Icons, Illustrations, and Design Components </h2>
+			<div class="space-between">
+			</div>
 
-			<p>During this timeline, Zipcar went through a brand style guide refresh, and established that the old flatline iconography will transition to circular. Following this update, I adopted graphics from Smashicons and set the consistent visual style for most of the current Presales icons, namely manipulating graphics, positioning, border color, border width, fill, and background color. The icons I designed will also be reflected in future Zipcar platforms, such as the membership site, mobile app, and communication emails.</p>
+			<h2> Zipcar's brand refresh </h2>
+
+			<p>Zipcar's Marketing Team and Design Team were redesigning the entire brand and style guide at this time. Because I was working on the flagship site for a large market, I was in the loop for new branding updates and brought them back into my localization project. In this case study, I'll be listing the design thinking behind a few complex design system components.</p>
+
+			<div class="space-between">
+			</div>
+
+
+			<h2> Icons and Illustrations: Flatline or Circular? </h2>
+
+			<p>Iconography is crucial to Zipcar's branding. For Consumer pages, the brand voice relies on the playful and ___ icons and illustrations to visually convey snippets of messages and values. Through many icon explorations, the US Marketing Team and Zipcar Design Team chose to transition to colorful circular icons. Containing illustrations in circles, detailing the same border width, and referencing the style guide's color palette contributed to visual consistency throughout the Consumer pages.</p>
+
+			<p>Business pages also leverage photography for a more professional audience of enterprise admins. While we could have kept the circular icons as in Consumer and toned down on the bold colors, we ultimately decided on using flatline icons with muted colors because it kept some visual familiarity for an older audience who have been longtime Zipcar users. It also feels visually closer to the element of photography and movement on the page.</p>
+
+			<p>These icons I designed will be reflected in future Zipcar platforms and products, such as on the membership site, mobile app, and communication emails.</p>
+
+			<div class="space-between">
+			</div>
+
+			<h2>Car Carousel</h2>
 
 			<center>
-				<img class="resize-whole-width" src="images/Zipcar/icons.png" alt="All of the new icons I've designed for the site.">
-				<p class="caption">Samples of my curated circular icons: Consumers Presales on the left half and Zipcar for Business on the right half. </p>
+				<img src="images/Zipcar/car-carousel-gif.gif" alt="Car carousel interaction GIF">
 			</center>
 
-			<p>Throughout my co-op, I worked primarily on designs for the Consumers and Zipcar for Business Presales site, which is Zipcar's registration funnel for new users who are not Zipcar members. The site designs was originally managed by the same designer who worked on our Member Web platform. When I joined the Design team as a UX Designer Co-op in Jan 2019, I became responsible for any forthcoming Presales design decisions, primarily with one of Zipcar's higher priority task to update the UK Presales site.</p>
+			<p>The Car Carousel is one of the most interacted components on the Presales site, making it an extremely valuable affordance for the business. Due to the flexible application of the component's information, there are multiple touchpoints to access this carousel: Consumer Home, Pricing, and Zipcar Flex.</p>
+
+			<p> The previous design featured cars and pricing in a table, taking up a lot of vertical screen real estate. While the table-view was a one-stop shop to all types of cars (i.e. Small, Luxury, Vans) and highlighted pricing, the business value has since then shifted emphasis to Round-trip vs. Flex cars, and aesthetic comfort over cost. <br><br>
+			A carousel invites fun user interaction, allows for easy visual scanning, and minimizes information overload.</p>
+
+			<p>Although my task was to localize, or update components, from the UK site to North America's, there were some visual elements I improved upon the existing carousel.</p>
+
+			<center>
+				<img src="images/Zipcar/carousel-comparison.png" class="resize-60-percent" alt="Carousel comparison">
+				<p class="caption">A side-to-side comparision of the current North America carousel and my redesign for the UK site.</p>
+			</center>
+
+			<p>I wanted to build upon the structure of the current North America's carousel (left) in my redesign (right). In the redesign, the content feels more centered and grounded on the page by centering the heading and description, as well as minimizing the white space between the right carousel arrow and the car.</p>
+
+			<p>North America's carousel also draws attention to the varying car sizes and angles. Zipcar's brand refresh was "move forward and futuristic," so I worked with the UK Marketing Team to supply right-facing Avis car model images, adding to the overall visual consistency as well as highlighting the unique colorful branding of Round-trip and Flex cars. </p>
+
+			<p>Working with the UK market also meant familiarizing myself with their region-specific pricings, like how Round-trip in the UK offers 2-day pricing and how Zipcar Flex only exists in the UK. I modified the North America Car Carousel to include these business market needs with a second line of 2-day pricing or a blue Flex tag.</p>
+
+			<div class="space-between">
+			</div>
 
 
-			<h2> Designing Functional Components </h2>
+			<h2>Cost Calculator</h2>
 
-			<p>Based on positive user behavior and engagement metrics with the Cost Calculator on US Presales site, we brought the concept over to the UK site. I designed the all of the different selected states, depending on region specific products and what made the most sense for users to estimate pricing for an errand-specific Round Trip or a time-based Flex Electric car.</p>
+			<center>
+				<img src="images/Zipcar/cost-calc-gif.gif" alt="Car carousel interaction GIF">
+				<p class="caption">The cost calculator is a feature for users to estimate cost for an ideal Zipcar trip.</p>
+			</center>
+
+			<p>Based on positive engagement metrics with the Cost Calculator on the North America site, we brought the feature over to the UK site. Working with my PM and Head of UK Marketing, we wanted to offer estimated pricing for an errand-specific Round Trip or a time-based Flex VW Electric-Golf car. I explored different information across specific selected states. One example of an iteration for Flex VW Electric-Golf was to use the slider for selecting time rather than milage, since pricing was only time-dependent.</p>
 
 			<center>
 				<img src="images/Zipcar/select_trip_component.png" alt="Select Trip Component">
-				<p class="caption">Designing for the cost calculator, a feature for users to estimate cost for an ideal Zipcar trip.</p>
+				<p class="caption">One of the iterations for designing different states between Flex and Round-trip selection. </p>
 			</center>
 
-			<p>When reworking the geographic map, it was easier to communicate certain UX changes on a separate note to the developers, rather than directly modifying the wireframes. Instead of displaying all Zipcars as standard location pins per the old design, they can be indicated by simply the pin head; when a pin is clicked to view car details, it’s more intuitive for the selected state of the pin to enlargen slightly and show the pin arrow. Additionally, the old blue Flex mapping overlay was too dark and heavy (almost like the city was underwater), and cause an accessibilty issue with viewing the Flex pins and River Thames—a 70% color opacity would have a less overwhelming visual effect on the map.</p>
+			<p>But due to technical constraints, we realized later on that we could not engineer away the "Select a trip" section, which was already time-dependent. On top of that, the purpose change of the slider offers a completely different user experience, which may frustate users who want to calculate pricing based on how many miles they know they will be traveling. This was a case where design impacted the business to re-evaluate their pricing model.</p>
+
+
+			<div class="space-between">
+			</div>
+
+
+			<h2>Geographic Map</h2>
 
 			<center>
-				<img src="images/Zipcar/map.png" alt="Geographic map">
-				<p class="caption">Before and after screenshots of the geographic map. Interact with the updated map for London <a href="https://www.zipcar.com/en-gb#map" target="_blank">here</a>.</p>
+				<img src="images/Zipcar/map-gif.gif" alt="Car carousel interaction GIF">
 			</center>
+
+			<p>The map is one of the final interactive components on the site. In the previous UK site, the map showed a more prominent blue overlay for the Flex zone and displayed all Zipcars as standard location pins.</p>
+
+			<center>
+				<img src="images/Zipcar/old-map.png" alt="Old geographic map">
+				<p class="caption">The previous design of the map. Note the dark blue Flex zone and car pins.</p>
+			</center>
+
+			<p>My feedback to my PM was that the blue overlay was too heavy on the map, almost like the city "was underwater"&#8212;I also noticed that it caused visible accessibility issues with the blue Flex pins and River Thames. I submitted a ticket for the engineers to reduce the opacity by 70%, which has been successfully developed. To further increase visibility of pins, I redesigned them to show only the pin heads; the selected state will feature a larger pin with the pin needle to differentiate itself. </p>
+
+			<center>
+				<img src="images/Zipcar/new-map.png" alt="Redesigned map">
+				<p class="caption">The redesign of the map. The blue Flex zone is 70% more transparent than the original, and car pins have been simplified to just the pin head.</p>
+			</center>
+
+						<div class="space-between">
+			</div>
+
+			<h2>Other Components</h2>
+
+			<p>During this project, I redesigned 20 atomic design components and created 4 new ones. Here are a few samples of the other system designs.</p>
+
+
+			<center>
+				<img src="images/Zipcar/other-components.png" class="resize-whole-width" alt="Carousel comparison">
+				<p class="caption">Some of the other components I designed! These are reusable throughout the site.</p>
+			</center>
+
+
+			<div class="space-between">
+			</div>
+
+			<h2>Feedback System</h2>
+
+			<p>I worked incredibly closely with my PM, US Marketing, and the UK Marketing Team to  design and successfully deploy a completely new website in a 10-week design sprint and 8-week engineering sprint. I had in-person meetings with the PM twice a week and weekly remote calls with the UK stakeholders, where we reviewed weekly progress across 12 Consumer and Business pages. There were many synchronous tasks each week, including but not limited to UX copy and photography handoff, icon reiterations, and atomic design updates. We used a shared spreadsheet to document progress and over 200 tasks for the Designer, PM, and Marketing Team.</p>
+
+			<center>
+				<img src="images/Zipcar/excel.png" alt="Using an Excel sheet to collaborate.">
+			</center>
+
+
+			<p>As the main designer driving the design decisions of this project, I had a lot of responsibility to deliver updated Sketch artboards to Zeplin and check-off delegated tasks on Jira. The senior designers on the UX Design Team were very supportive by sitting in on early team meetings to help with my onboarding to the big project, and often provided feedback on my design iterations!</p>
+
+						<div class="space-between">
+			</div>
+
+			<h2>Learning about Conversion Rate Optimization (CRO) and A/B Testing</h2>
+
+			<p>At the end of this project, I dabbled in learning more about CROs, success metrics, A/B testing, Optimizely, Google Analytics, and Hotjar to improve the user registration rates through the registration funnel. I handed off A/B designs to my PM for the US Presales Pricing page for Zipcar's upcoming A/B test.</p>
+
+			<div class="space-between">
+			</div>
+
 			
-			<h2> Final Designs: Now Live! </h2>
+			<h2>Conclusion and Final Reflection</h2>
 
-			<p>Over the course of 10 weeks, it was an amazing journey and learning experience in designing with business in mind. Working with stakeholders on the team taught me the direct correlation between user design and successful metrics, and communicating with my PM, backend, and frontend engineers help me create optimized designs that were technically feasible to develop. <br><br>
-
-			View the new UK Zipcar site at <a href="https://www.zipcar.com/en-gb" target="_blank">https://www.zipcar.com/en-gb</a>!</p>
-
-			<h2> Learning about Conversion Rate Optimization (CRO) and A/B Testing  </h2>
-
-			<p>At the end of my co-op, I dabbled in CROs, how metrics are measured, A/B testing, Optimizely, Google Analytics, and Hotjar on a brief project in improving the user registration rates through the registration funnel. I worked on redesigning the US Presales Pricing page until the end of my co-op.</p>
+			<p>It was an amazing learning experience to design for the UK market, and I'm grateful for my UX Design team in trusting me with such a global project. Working directly with stakeholders and the Head of UK Marketing taught me the direct correlation between user design and successful metrics. Communicating with my PM, backend, and frontend engineers guided me in creating optimized designs that were technically feasible to develop. It's still surreal for me to see my journey, growth, and hard work on the updated site!<br><br>
+			Feel free to view the new UK Zipcar site at https://www.zipcar.com/en-gb!</p>
 
 			<br><br><br><br><br>
 
