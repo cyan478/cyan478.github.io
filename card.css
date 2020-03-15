@@ -201,6 +201,31 @@ img {
 /* -----------------------------------------------*/
 
 
+.saltwaterclassroom {
+    background-color: #46A6A7;
+    overflow: hidden;
+}
+
+.saltwaterclassroom img {
+    width: 250px;
+    position: absolute;
+    top: 11%;
+    left: 60%;
+}
+
+
+.saltwaterclassroom .body{
+    width: 40%;
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    /*background-color: blue;*/
+}
+
+
+/* -----------------------------------------------*/
+
+
 .myfootprint {
     background-color: #D7DBDD;
 }
