@@ -137,6 +137,30 @@ img {
     text-align: center !important;
 }*/
 
+
+/* -----------------------------------------------*/
+
+.drift {
+    background-color: black;
+    /*background-color: #4f4e5b;*/
+    overflow: hidden;
+}
+
+.drift img {
+    width: 420px;
+    position: absolute;
+    top: 12%;
+    left: 6%;
+}
+
+.drift .body {
+    width: 32%;
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    /*background-color: blue;*/
+}
+
 /* -----------------------------------------------*/
 
 .microsoft {
