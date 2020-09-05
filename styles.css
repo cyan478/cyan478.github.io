@@ -74,7 +74,7 @@ nav ul li a {
 	text-decoration: none;
 	color: #aaa;
 	font-weight: 400;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin: 0 10px;
 }
 
@@ -177,18 +177,18 @@ nav .container-fluid {
 .current-position {
 	/*background-color: salmon;*/
 	margin-bottom: 3%;
-	font-family: SF-Pro-Bold;
+	font-family: SF-Pro-Semibold;
 	font-size: 17px;
-	color: gray;
-	/*letter-spacing: 1.3px;*/
+	color: #7B7B7B;
+	letter-spacing: .2px;
 }
 
 .about {
 	width: 49%;
-	font-family: SF-Pro-Light;
+	font-family: SF-Pro-Regular;
 	font-size: 16px;
 	margin-bottom: 3%;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.1px;
 }
 
 .colored {

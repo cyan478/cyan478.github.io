@@ -1,0 +1,177 @@
+
+@font-face {  
+	font-family: Avenir;  
+	src: url(‘fonts/AvenirLTSts-Book.otf’);
+}
+
+@font-face {
+	font-family: SF-Pro-Ultralight;
+	src: url("fonts/SF-Pro-Text-Ultralight.otf");
+}
+
+@font-face {
+	font-family: SF-Pro-UltralightItalic;
+	src: url("fonts/SF-Pro-Text-UltralightItalic.otf");
+}
+
+@font-face {
+	font-family: SF-Pro-Thin;
+	src: url("fonts/SF-Pro-Text-Thin.otf");
+}
+
+@font-face {
+	font-family: SF-Pro-Light;
+	src: url("fonts/SF-Pro-Text-Light.otf");
+}
+
+@font-face {
+	font-family: SF-Pro-Regular;
+	src: url("fonts/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+	font-family: SF-Pro-Semibold;
+	src: url("fonts/SF-Pro-Text-Semibold.otf");
+}
+
+@font-face {
+	font-family: SF-Pro-Bold;
+	src: url("fonts/SF-Pro-Text-Bold.otf");
+}
+
+@font-face {
+	font-family: SF-Pro-Heavy;
+	src: url("fonts/SF-Pro-Text-Heavy.otf");
+}
+
+@font-face {
+	font-family: SF-Pro-Black;
+	src: url("fonts/SF-Pro-Display-Bold.otf");
+}
+
+nav ul {
+	list-style: none;
+	text-align: white;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: white !important;
+	display: block;
+	padding: 0px;
+	text-decoration: none;
+	color: #aaa;
+	font-weight: 400;
+	/*text-transform: uppercase;*/
+	margin: 0 10px;
+}
+
+.my-name {
+	letter-spacing: 0.1px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+	transition: all .5s;fix
+}
+
+nav ul li a:hover {
+	color: #555;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+	position: relative; 
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: white;
+	height: 2px;
+}
+
+nav.stroke ul li a:hover:after {
+	width: 70%;
+}
+
+.standard-container {
+	margin: 50px 90px;
+}
+
+.navigation-list {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	/*letter-spacing: 2px;*/
+	padding: 50px 0px;
+	list-style: none;
+}
+
+.navbar.navbar-default {
+	font-size: 16px;
+	font-family: SF-Pro-Light;
+	background-color: white;
+	padding-top: 24px;
+	padding-bottom: 8px;
+	padding-left: 110px;
+	padding-right: 120px;
+	display: flex;
+	flex-direction: column;
+	/*min-height: 70px;*/
+	height: 220px;
+}
+
+.navbar > .img-wrapper {
+	padding-top: 16px;
+	display: flex;
+	justify-content: space-around;
+	color: blue;
+}
+
+.navbar > .img-wrapper > img {
+	height: 56px;
+	min-height: 56px;
+	max-height: 56px;
+}
+
+.navbar > .small-img-wrapper {
+	padding-top: 16px;
+	display: flex;
+	justify-content: space-around;
+	color: blue;
+}
+
+.navbar > .small-img-wrapper > img {
+	height: 36px;
+	min-height: 36px;
+	max-height: 36px;
+}
+
+nav .container-fluid {
+	margin: unset;
+}
+
+#facebook {
+
+}
+
+#drift {
+	background-color: black;
+}
+
+
+#zipcar {
+	background-color: #55A646;
+}
+

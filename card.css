@@ -142,6 +142,7 @@ img {
 .microsoft {
     background-color: #0078D8;
     /*background-color: #d9d9d9;*/
+    cursor: not-allowed;
 }
 
 .microsoft img {
